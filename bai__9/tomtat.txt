@@ -1,0 +1,4 @@
+Xuất dữ liệu trong Python
+    - Python cung cấp cách xuất dữ liệu rất dễ dùng, không cần vòng lặp.
+    - Dùng hàm format() để xuất dữ liệu theo ý muốn
+    - Xuất căn phải bằng format()

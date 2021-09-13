@@ -1,0 +1,40 @@
+Các toán tử thường dùng trong Python.
+ 	+ Toán tử số học cơ bản
+
+		- Toán tử cộng, trừ, nhân tương tự các ngôn ngữ khác.
+		- Toán tử chia lưu ý có 3 dạng:
+			* //: Chia lấy phần nguyên. vd: 7 // 2 = 3.
+			* /: Chia thường sẽ lấy cả phần số lẻ. vd: 7 / 2 = 3.5.
+			* %: Chia lấy phần dư. vd: 7 % 2 = 1.
+		- Lũy thừa
+
+	+ Toán tử gán
+		
+		- = : Gán giá trị.
+		- += : Cộng và gán.
+		- -= : Trừ và gán.
+		- *= : Nhân và gán.
+		- /= : Chia và gán.
+		- //= : Chia và gán (lấy nguyên).
+		- %= : Chia lấy dư.
+		- **= : Lấy lũy thừa và gán.
+	
+	+ Toán tử so sánh
+
+		- ==: So sánh bằng.
+		- !=: So sánh không bằng.
+		- <: So sánh nhỏ hơn.
+		- <=: So sánh nhỏ hơn hoặc bằng.
+		- >: So sánh lớn hơn.
+		- >=: So sánh lớn hơn hoặc bằng.
+		- is: Trả về True nếu 2 biến so sánh có cùng giá trị, ngược lại là False.
+		- is not: Trả về False nếu 2 biến so sánh có cùng giá trị, ngược lại là True.
+
+	+ Toán từ logic
+
+		- and: Tất cả các điều kiện thỏa True thì kết quà là True.
+		- or: Chỉ cần 1 điều kiện thỏa thì là True.
+		- not: Phủ định		
+
+	+ Độ ưu tiên toán tử
+		- Python có ràng buộc ưu tiên toán tử, tuy nhiên chỉ cần dùng () để đơn giản hơn.

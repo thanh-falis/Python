@@ -1,0 +1,55 @@
+Câu 1:
+    Python hỗ trợ các kiểu dữ liệu cơ bản như:
+        - Kiểu Int: Số nguyên.
+	    - Kiểu Float: Số thực.
+	    - Kiểu Complex: Số phức.
+	    - Kiểu str: Chuỗi.
+	    - Kiểu bool: Kiểu luận lý True, False.
+Câu 2:
+    Có 2 cách ghi chú trong Python:
+        - Ghi chú 1 dòng: Sử dụng dấu # ở đầu dòng.
+        - Ghi chú nhiều dòng: Sử dụng 3 cặp dấu nháy đôi hoặc 3 cặp dấu nháy đơn.
+
+Câu 3:
+    Ý nghĩa các toán tử /,//,%,**,and,or,is:
+        /: Chia lấy số thập phân
+        //: Chia lấy phần nguyên
+        %: Chia lấy số dư
+        **: Lũy thừa
+        and: Tất cả các điều kiện thỏa True thì kết quà là True.
+		or: Chỉ cần 1 điều kiện thỏa thì là True.
+		is: Trả về True nếu 2 biến so sánh có cùng giá trị, ngược lại là False.
+Câu 4:
+    Cách nhập liệu từ bàn phím
+        - Để nhập liệu từ bán phím ta dùng hàm input(), có thể dùng đối số hoặc không
+        - Dữ liệu khi nhập vào sẽ có dạng chuỗi, muốn ép kiểu dữ liệu ta dùng hàm float(), int()...
+
+Câu 5:
+    Các loại lỗi khi lập trình và cách bắt lỗi:
+        - Lỗi cú pháp (Syntax Error)
+        - Lỗi thực thi (Run-time Exceptions)
+        - Lỗi nghiệp vụ (Logic Error)
+        - Có rất nhiều cách bắt lỗi chi tiết nhưng chỉ cần nắm được hàm try except.
+
+Câu 6:
+    cho các biến với giá trị: i1 = 2, i2 = 5, i3 = -3, d1 = 2.0, d2 = 5.0, d3 = -0.5.
+    kết quả các lệnh:
+        (a) i1+(i2*i3) = -13
+        (b) i1*(i2+i3) = 4
+        (c) i1/(i2+i3) = 1.0
+        (d) i1//(i2+i3) = 1
+        (e) i1/i2+i3 = -2.6
+        (f) i1//i2+i3 = -3
+        (g) 3+4+5/3 = 8.666666666666666
+        (h) 3+4+5//3 = 8
+        (i) (3+4+5)/3 = 4.0
+        (j) (3+4+5)//3 = 4
+        (k) d1+(d2*d3) = -0.5
+        (l) d1+d2*d3 = -0.5
+        (m) d1/d1-d3 = 1.5
+        (n) d1/(d1-d3) = 0.8
+        (o) d1+d2+d3/3 = 6.8333333333333333
+        (p) (d1+d2+d3)/3 = 2.16666666666666665
+        (q) d1+d2+(d3/3) = 6.8333333333333333
+        (r) 3*(d1+d2)*(d1-d3) = 52.5
+

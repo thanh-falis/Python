@@ -1,0 +1,2 @@
+Biểu thức Pass dùng để dành chỗ cho lập trình.
+ví dụ ta biết vị trí đó phải viết nhiều code, nhưng chưa kịp viết thì ta dùng pass vì Python không cho phép để trống condition

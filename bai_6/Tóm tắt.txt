@@ -1,0 +1,16 @@
++ Các kiểu dữ liệu thường gặp trong Python:
+	- Kiểu Int: Số nguyên.
+	- Kiểu Float: Số thực.
+	- Python không có kiểu dữ liệu Double.
+	- Kiểu Complex: Số phức:
+		* vd: a = complex(2,3) thì 2 là phần thực, 2 là phần ảo
+		* Xuất kết quả:
+			Phần thực: print("test",a.real)
+			Phần ảo: print("test",a.imag)
+	- Kiểu str: Chuỗi.
+	- Kiểu bool: Kiểu luận lý True, False.
++ Khai báo biến:
+	- Một biến không cần không cần khai báo kiểu dữ liệu.
+	- Khi gán giá trị cho biến, python tự động nhận kiểu dữ liệu của biến
+	- dùng type() để kiểm tra kiểu dữ liệu
++ Xóa biến: dùng hàm del (del a).

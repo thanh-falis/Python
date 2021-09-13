@@ -1,0 +1,9 @@
+Các loại lỗi trong Python
+    + Lỗi cú pháp (Syntax Error): Viết sai cú pháp khi gán dữ liệu dẫn đến không thể thông dịch, không chạy dược
+    + Lỗi thực thi (Run-time Exceptions): Là lỗi thông dịch bình thường nhưng đến một giai đoạn nào đó,
+        phần mềm bị dừng do lỗi chia cho 0, lỗi ép kiểu, lỗi kết nối mạng vv...
+    + Lỗi nghiệp vụ (Logic Error): Là lỗi nghiêm trong, chương trình vẫn thông dịch bình thường nhưng kết quả sai.
+        Lỗi này rất khó fix bug để tìm lỗi
+    + Bắt lỗi.
+        - Python cung cấp Try Catch để bắt lỗi Run-time: Try - Catch sẽ cố thực thi lệnh trong Try,
+            khi có lỗi xảy ra, chương trình sẽ không bị dừng mà sẽ thông báo lỗi và tiếp tục chạy

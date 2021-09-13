@@ -1,0 +1,9 @@
+Nhập liệu từ bàn phím trong python
+    + Để nhập liệu từ bàn phím trong Python ta dùng hàm input()
+    + Khi nhập từ bàn phím, hàm input() sẽ hiểu đó là một chuỗi.
+    + Muốn đưa về kiểu số mong muốn ta dùng:
+        - x = int(input): đưa giá trị về kiểu int.
+        - x = float(input): đưa giá trị về kiểu số thực.
+    + Muốn đưa về kiểu bool
+        - Viết hàm định nghĩa
+    + hàm input() có thể truyền trực tiếp một chuỗi

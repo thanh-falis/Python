@@ -1,0 +1,12 @@
++ Python là một ngôn ngữ lập trình bậc cao cho các mục đích lập trình đa năng, do Guido van Rossum tạo ra và lần đầu ra mắt vào năm 1991.
++ Là loại ngôn ngữ lập trình thông dịch.
+	- Thông dịch (interpreter): Tại thời điểm chạy chương trình, chương trình được chuyển sang ngôn ngữ máy và thực hiện luôn (chuyển đổi và thực thi cùng thời điểm).
+	- Biên dịch (compiler): Trải qua 2 giai đoạn: 
+		Giai đoạn 1: chương trình được chuyển sang ngôn ngữ máy.
+		Giai đoạn 2: Thực thi chương trình đã được biên dịch.
++ Python hiện là ngôn ngữ lập trình phổ biến nhất hiện nay.
++ Một số ứng dụng của Python trong lập trình phần mềm:
+	- Lập trình ứng dụng web.
+	- Khoa học và số liệu ứng dụng: Bộ thư viện của Python được thiết kế để phân tích thống kê và phân tích số liệu.
+	- Trí tuệ nhân tạo và học máy.
++ Hiện nay, Python là ngôn ngữ lập trình số 1 trong lĩnh vực Trí tuệ nhân tạo (AI).

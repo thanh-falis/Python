@@ -1,0 +1,3 @@
+Biểu thức Boolean là một biểu thức quan trọng trong python.
+Biểu thức Bool trả về giá trị True, False dùng để để điều hướng công việc trong phần mềm.
+Thường trong các phép toán điều kiện sẽ sinh ra True hoặc False.

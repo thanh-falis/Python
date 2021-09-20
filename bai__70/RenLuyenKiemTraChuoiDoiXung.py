@@ -1,6 +1,6 @@
 """
 - Dùng vòng lặp While vĩnh cửu, cho phép nhập chuỗi -> xuất chuỗi này có phải đối xứng hay không,
-hỏi người sử dụng có tiếp tục phần mềm. Nếu tieps tục thì nhập chuỗ mới else thoát và cảm ơn
+hỏi người sử dụng có tiếp tục phần mềm. Nếu tiếp tục thì nhập chuỗ mới else thoát và cảm ơn
 """
 
 def check(s):
@@ -19,9 +19,5 @@ def main():
     else:
         print("Chuỗi bạn nhập không đối xứng")
 
-while True:
-    main()
-    ask = input("Bạn có muốn tiếp tục?(c/k):")
-    if ask == "k":
-        break
-print("Cảm ơn bạn đã dử dụng phần mềm")
+
+main()

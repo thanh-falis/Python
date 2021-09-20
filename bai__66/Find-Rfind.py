@@ -1,12 +1,13 @@
 """
 Hàm find() trả về giá trị tìm thấy đầu tiên, hàm rfind trả về giá trị cuối tìm thấy.
-Nếu khoogn tìm thấy thì trả về -1
+Nếu không tìm thấy thì trả về -1
 """
 s = "c:/music/bolero/doithonghaimo.mp3"
 p1 = s.find("/")
 p2 = s.rfind("/")
 print("p1: ", p1)
-print("p1=2: ", p2)
+print("p2: ", p2)
+
 c =s.count("o")
 print("o xuất hiện: ", c)
 

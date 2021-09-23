@@ -1,0 +1,3 @@
+sv1; Nguyễn Văn A; 20/7/1993
+sv2; Pham Văn Ngọc; 5/6/1994
+sv3; Lương Đức Thuận; 22/9/1993

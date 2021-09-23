@@ -36,4 +36,67 @@ n = int(input())
 lst = random.sample(range(100), n)
 print(lst)
 
+"""
+Câu 4: Viết chương trình nhập vào một dãy các số theo thứ tự tăng, nếu nhập sai quy cách
+thì yêu cầu nhập lại. In dãy số sau khi nhập xong.
+"""
+print("*"*30)
 
+
+def List(a):
+    ls = []
+    for i in range(1, a+1):
+        print("Nhập phần tử thứ ", i)
+        j = int(input())
+        ls.append(j)
+    return ls
+
+
+def is_sorted(ls):
+    asc = None
+    for i in range(len(ls)-1):
+        a, b = ls[i], ls[i+1]
+        if a == b:
+            continue
+        if asc is None:
+            asc = (a < b)
+        if (a < b) != asc:
+            return False
+    return True
+
+
+def main():
+    num = int(input("Nhập số phần tử:"))
+    lst1 = List(num)
+    print(lst1)
+
+    flag = 0
+    if all(lst1[i] <= lst1[i + 1] for i in range(len(lst1) - 1)):
+        flag = 1
+
+    if flag:
+        print("List đã sort.", lst1)
+    else:
+        print("List chưa sort, nhập tăng dần.")
+        lst3 = List(num)
+        print(lst3)
+
+
+main()
+"""
+Câu 5: Viết chương trình nhập vào một dãy n số thực M[0], M[1],... M[n-1],
+Hãy sắp xếp theo thứ tự giảm dần và xuất ra màn hình 
+"""
+print("*"*30)
+
+
+def main():
+    num = int(input("Nhập số phần tử của dãy số: "))
+    lst2 = List(num)
+    print(lst2)
+    print("Sắp xếp giảm dần")
+    lst2.sort(reverse=True)
+    print(lst2)
+
+
+main()

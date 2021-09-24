@@ -1,0 +1,10 @@
++ Trình bày kỹ thuật lưu file và dọc file trong python
+
+    - Để ghi tập tin trong python, ta dùng hàm open().
+        open('file.txt','w', encoding='utf-8') mở tập tin để ghi mới
+        open('file.txt','a', encoding='utf-8') mở tập tin để nối đuôi
+        với encoding dùng để định dạng tiếng Việt khi lưu trữ
+
+    - Để đọc file, ta dùng đối số r trong hàm open().
+        open('file.txt', 'r', encoding='utf-8')
+        trong đó đối số r dùng để đọc tập tin

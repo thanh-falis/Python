@@ -1,0 +1,6 @@
+sp01, dm1, Sắt tròn, 150000
+sp02, dm1, Sắt phi, 200000
+sp03, dm1, Sắt hộp, 300000
+sp04, dm2, Thép tấm, 250000
+sp05, dm2, Ống thép, 198000
+sp06, dm2, Thép cán, 400000

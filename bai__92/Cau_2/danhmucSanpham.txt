@@ -1,2 +1,3 @@
 dm1, Sắt
-dm2, Thép
+dm1, Thép
+dm1, Đồng

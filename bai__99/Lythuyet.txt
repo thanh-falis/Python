@@ -1,0 +1,14 @@
+Câu 1: Trình bày cách tạo cửa sổ bằng tkinter
+    - Để tạo cửa sổ, ta import hàm Tk() trong thư viện tkinker, khởi tạo một root từ Tk().
+        Các hàm resizeable, minsize, maxsize dùng để thay đổi width, hieght, kích thước tối da, tối thiểu xủa cửa sổ.
+        Để show cửa sổ lên ta dùng hàm mainloop()
+
+Câu 2: Trình bày cách sử dụng la, button, entry
+    - Label: Dùng để hiển thị dữ liệu nhưng không thay đổi thông tin.
+    - Button: Để cho phép người dùng thao tác, ra lệnh
+    - Entry: Cho phéo người dùng nhập liệu
+
+Câu 3: Trình bày cách gán sự kiện cho button
+    - Để gán sự kiện cho button, ta truyền parameter command.
+    - Nếu gán sự kiện đơn giản thì ta sẽ gán trực tiếp, vd: command=root.quit cho button thoát, nếu là sự kiện phức tạp
+    thì truyền hàm vào command sau đó viết hàm tương ứng.
